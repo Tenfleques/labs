@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MathNet.Numerics">
+      <HintPath>bin\Debug\netcoreapp2.1\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Numerics">
+      <HintPath>..\deps\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="TOI">
+      <HintPath>..\deps\TOI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
